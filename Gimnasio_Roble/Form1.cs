@@ -37,7 +37,7 @@ namespace Gimnasio_Roble
                 from.genero.Text = genero.Text;
 
                 //Llamado a la respuesta
-                from.Resultado.Text ="$"+Convert.ToString(sueldo_r *(beneficio + estrato_r));
+                from.Resultado.Text ="$"+Convert.ToString(sueldo_r-(sueldo_r *(beneficio + estrato_r)));
                 from.Show();
             }
             catch
