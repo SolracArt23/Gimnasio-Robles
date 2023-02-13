@@ -97,6 +97,7 @@
             this.Sueldo_text.Name = "Sueldo_text";
             this.Sueldo_text.Size = new System.Drawing.Size(411, 33);
             this.Sueldo_text.TabIndex = 6;
+            this.Sueldo_text.Items.AddRange(sueldo.Keys.ToArray<string>());
             // 
             // label4
             // 
@@ -139,6 +140,7 @@
             this.estrato.Name = "estrato";
             this.estrato.Size = new System.Drawing.Size(140, 33);
             this.estrato.TabIndex = 11;
+            this.estrato.Items.AddRange(estrato_fun.Keys.ToArray<string>());
             // 
             // cedula
             // 
