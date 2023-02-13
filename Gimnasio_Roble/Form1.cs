@@ -17,7 +17,7 @@ namespace Gimnasio_Roble
             //Values
             try
             {
-                var beneficio = 1.0;
+                var beneficio = 0.0;
                 var sueldo_r = sueldo[Sueldo_text.Text];
                 var estrato_r = estrato_fun[estrato.Text];
                 var nombre_r = Nombre.Text;
